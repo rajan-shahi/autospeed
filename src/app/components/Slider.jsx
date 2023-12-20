@@ -29,13 +29,13 @@ const Slider = () => {
         >
           <div className="">
             {customers.map((customer, index) => (
-              <SwiperSlide>
+              <SwiperSlide  key={index}>
                 <div
-                  key={index}
+                 
                   className=" justify-center pb-10 flex flex-col"
                 >
                   <div className="">
-                    <Image
+                    <Image alt="img"
                       className="  md:h-full h-[30vh] relative object-cover "
                       src={customer.img}
                     ></Image>

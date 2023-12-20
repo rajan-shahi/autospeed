@@ -35,7 +35,7 @@ return (
             className=" flex  group flex-col justify-center cursor-pointer hover:border-orange-400 border  border-gray-100 duration-300 rounded-lg  md:px-3 px-5 py-3 "
           >
             <div className=" relative">
-              <Image src={featured.img}></Image>
+              <Image alt="img" src={featured.img}></Image>
             </div>
             <div className=" flex flex-col gap-2">
               <h1 className=" text-sm text-gray-600">{featured.name}</h1>

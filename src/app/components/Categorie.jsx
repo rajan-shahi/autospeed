@@ -14,7 +14,7 @@ export default function Categorie() {
   return (
     <div name="category">
       <div className=" md:flex hidden  md:h-[75vh] flex-col justify-center">
-        <Image className=" h-full w-full object-cover" src={mycar}></Image>
+        <Image alt="img" className=" h-full w-full object-cover" src={mycar}></Image>
       </div>
       <div className=" flex justify-center ">
         <div className="md:-mt-[38%] flex flex-col gap-6  justify-center  w-full  md:w-10/12">
@@ -28,7 +28,7 @@ export default function Categorie() {
                 className=" md:flex md:gap-6  border-r border-b  py-5"
               >
                 <div>
-                  <Image
+                  <Image alt="img"
                     className=" md:px-0 px-4 cursor-pointer"
                     src={categorie.img}
                   ></Image>{" "}

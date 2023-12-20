@@ -24,7 +24,7 @@ export default function Blog() {
               className=" flex flex-col border border-gray-300 rounded-lg px-2  py-6 md:py-4 gap-3"
             >
               <div className=" hover:animate-pulse duration-300 ">
-                <Image
+                <Image alt="img"
                   className=" relative rounded-lg cursor-pointer object-cover "
                   src={blog.img}
                 ></Image>
@@ -51,7 +51,7 @@ export default function Blog() {
             {frees.map((free, index) => (
               <div key={index} className=" flex flex-col gap-2">
                 <div className=" cursor-pointer">
-                  <Image src={free.img}></Image>
+                  <Image alt="img" src={free.img}></Image>
                 </div>
                 <div className=" text-xl text-gray-800 cursor-pointer hover:text-orange-400">
                   <h1>{free.name}</h1>

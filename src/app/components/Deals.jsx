@@ -26,11 +26,11 @@ export default function Deals() {
           {deals.map((deal, index) => (
             <div key={index} className=" md:flex py-8 px-4 border duration-300 rounded-lg hover:border-orange-400  gap-8">
               <div className=" flex flex-col md:flex-1 gap-4">
-                <Image  className=" h-72 w-72 object-cover" src={deal.img}></Image>
+                <Image alt="img"  className=" h-72 w-72 object-cover" src={deal.img}></Image>
                 <div className=" flex justify-between md:justify-start md:pb-0 pb-6 gap-4">
-                  <Image className=" border rounded-lg hover:border-orange-300 cursor-pointer  h-20 w-20 object-cover duration-300" src={deal.stk}></Image>
-                  <Image className=" border rounded-lg hover:border-orange-300 cursor-pointer h-20 w-20 object-cover duration-300" src={deal.stks}></Image>
-                  <Image className="  border rounded-lg hover:border-orange-300 cursor-pointer h-20 w-20 object-cover duration-300" src={deal.stke}></Image>
+                  <Image alt="img" className=" border rounded-lg hover:border-orange-300 cursor-pointer  h-20 w-20 object-cover duration-300" src={deal.stk}></Image>
+                  <Image  alt="img" className=" border rounded-lg hover:border-orange-300 cursor-pointer h-20 w-20 object-cover duration-300" src={deal.stks}></Image>
+                  <Image alt="img" className="  border rounded-lg hover:border-orange-300 cursor-pointer h-20 w-20 object-cover duration-300" src={deal.stke}></Image>
                 </div>
               </div>
               <div className=" flex  md:flex-1 flex-col gap-4">
